@@ -20,6 +20,14 @@ function new_excerpt_more($length) {
 	return 40;
 }
 add_filter('excerpt_length', 'new_excerpt_more');
+
+add_action( 'after_setup_theme', 'wpt_setup' );
+if ( ! function_exists( 'wpt_setup' ) ):
+	function wpt_setup() {  
+		register_nav_menu( 'primary', __( 'Primary navigation', 'wptuts' ) );
+	} 
+endif;
+require_once('wp_bootstrap_navwalker.php');
     
 	// Declare sidebar widget zone
     if (function_exists('register_sidebar')) {
