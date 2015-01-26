@@ -20,12 +20,11 @@
         	<p>
         		<strong>Blog</strong>
         	</p>
-            <?php query_posts('cat=4&posts_per_page=4'); ?>
+            <?php query_posts('cat=2&posts_per_page=4'); ?>
             <?php while ( have_posts() ) : the_post(); ?>
                 <p>
-                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?><br />
+                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?><br /></a>
                     <?php the_date('m-d-y', '', ''); ?>
-                    </a>
                 </p>
             <?php endwhile; ?>
             <?php wp_reset_query(); ?>

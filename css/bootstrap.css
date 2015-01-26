@@ -1104,12 +1104,12 @@ h5,
 }
 h6,
 .h6 {
-  	font-size: 14px;
+  	font-size: 27px;
 	text-transform: uppercase;
-	color: #33a9e0;
+	color: #008cf7;
 	margin-bottom: -4px;
 	margin-top: 25px;
-	font-weight: 600;
+	font-weight: 900;
 }
 p {
 	font-size: 14px;
@@ -1210,7 +1210,7 @@ a.bg-success:hover {
   background-color: #c1e2b3;
 }
 .bg-info {
-  background-color: #d9edf7;
+  background-color: #008cf7;
 }
 a.bg-info:hover {
   background-color: #afd9ee;

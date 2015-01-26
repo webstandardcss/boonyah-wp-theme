@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php 
+/*
+	Template Name: WhiteLabel
+*/
+get_header(); ?>
 
 <script type="text/javascript">
 	$(document).ready(function(e) {

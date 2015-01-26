@@ -2,7 +2,8 @@ body {
 	background: #ededed;
 }
 
-h3 {
+h3,
+h5 {
 	font-size: 21px;
 	color: #333331;
 	font-weight: 500;
@@ -17,15 +18,27 @@ h4 {
 	margin-bottom: 6px;
 }
 
+h5 {
+	padding-bottom: 0;
+	border: none;
+	line-height: 30px;
+	margin-bottom: 12px;
+}
+
 .blue {
 	font-size: 14px;
 	font-weight: 500;
 }
 
 img,
-p {
+p,
+li {
 	font-size: 13px;
 	color: #333331;
+}
+
+img,
+p {
 	margin-bottom: 18px !important;
 }
 
@@ -79,6 +92,10 @@ aside {
 
 
 /* Media Kit Page Styles Starts */
+.screenshots article {
+	margin-top: 12px;
+}
+
 .screenshots article img {
 	width: 100%;
 }
@@ -91,11 +108,11 @@ aside {
 
 .img-caption {
 	font-size: 11px;
-	line-height: 25px;
 	background: #e9e9e9;
-	line-height: 25px;
+	line-height: 15px;
 	text-align: center;
 	color: #333;
+	padding: 6px 0;
 	border-top: 1px solid #e9e9e9;
 	margin-top: -17px;
 	border-radius: 0 0 5px 5px;
@@ -152,7 +169,8 @@ aside {
 .footer-general p {
 	font-size: 11px;
 	text-align: center;
-	margin-bottom: 0 !important;
+	margin-top: 20px;
+	margin-bottom: -7px !important;
 }
 
 .footer-links li {

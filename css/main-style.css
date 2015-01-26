@@ -30,6 +30,10 @@ h1 {
 	float: none;
 }
 
+.list-margin li {
+	margin-bottom: 15px;
+}
+
 /* Header Styles Starts */
 nav li {
 	display: inline-block;
@@ -75,7 +79,7 @@ nav span {
 	color: #fff;
   	text-align: left;
   	font-size: 60px;
-  	max-width: 500px;
+  	/*max-width: 500px;*/
   	line-height: 80px;
 	margin-left: 20px;
 }
@@ -114,7 +118,7 @@ nav span {
 
 	.header-wrapper {
 		position: fixed;
-		height: 70px;
+		height: 72px;
 	}
 
 	.header-wrapper.fixed {
@@ -132,6 +136,24 @@ nav span {
 		color: #86cbff;
 	}
 }
+
+.cta-business,
+.cta-consult {
+	display: none;
+}
+
+.home-page .cta-business {
+	display: block;
+}
+
+.wlabel-page .cta-demo,
+.home-page .cta-demo {
+	display: none;
+}
+
+.wlabel-page .cta-consult {
+	display: block;
+}
 /* Header Styles Ends */
 
 /* Contens Styles Starts */
@@ -143,9 +165,12 @@ nav span {
 	background: #f7f7f7;
 }
 
-.text-form,
 .btn-c {
-	padding-top: 160px;
+	padding-top: 135px;
+}
+
+.text-form {
+	padding-top: 163px;
 }
 
 .text-form input,
@@ -154,18 +179,14 @@ nav span {
 }
 
 .text-form input[type=text],
-.btn-c a,
-.btn-c2 a {
+.text-form input[type=button],
+.btn-c a {
 	width: 100%;
 	margin-bottom: 12px;
 }
 
-.text-form2 input[type=text] {
-	width: 68%;
-}
-
-.text-form2 input[type=button] {
-	width: 30%;
+.btn-c2 a {
+	width: 49%;
 }
 
 .by-girl img {
@@ -184,6 +205,14 @@ nav span {
 	margin: auto;
 	margin-bottom: 12px;
 	float: none;	
+}
+
+form label span {
+	color: red;
+}
+
+.mb-less {
+	margin-bottom: 15px;
 }
 
 /* Footer Styles Starts */
@@ -210,12 +239,15 @@ footer strong {
 }
 
 footer ul,
-footer li {
+footer li,
+.form ul,
+.form li {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
+.form li,
 footer li {
 	margin-bottom: 20px;
 }
@@ -293,6 +325,14 @@ footer article {
 
 .data {
 	top: 60px;
+}
+
+.has-img.less-mb {
+	bottom: 5%;
+}
+
+.has-img.less-mb img {
+	width: 75%;
 }
 /* Business Page Styles Ends */
 
@@ -410,5 +450,16 @@ footer article {
 	background: #008cf7;
 	/*position: relative;*/
 	box-shadow: 0 0 0 6px #008cf7;
+}
+
+.social-icons a {
+	font-size: 20px;
+	margin-right: 15px;
+	color: #ccc;
+	transition: all .3s .1s;
+}
+
+.social-icons a:hover {
+	color: #008cf7;
 }
 

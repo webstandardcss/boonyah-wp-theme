@@ -17,7 +17,7 @@
 				
     ?>
         <div class="item <?php if ($i == 0) { echo "active"; } ?>">
-            <img src="images/<?php print $obj->{$number[$i]}->{'image'}; ?>" alt="BoonYah" />
+            <img src="<?php bloginfo('template_url'); ?>/images/<?php print $obj->{$number[$i]}->{'image'}; ?>" alt="BoonYah" />
             <div class="carousel-caption">
                 <h1><?php print $obj->{$number[$i]}->{'title'}; ?></h1>
                 <?php if ($slide == "index" ) { ?>

@@ -33,7 +33,7 @@
 		    
 		    <article class="logo pull-left">
 		    <!-- Logo Starts -->
-		        <a href="index.php"><img src="<?php bloginfo('template_url'); ?>/images/logo-blue.png" alt="Boonyah" /></a>
+		        <a href="http://boonyah.net"><img src="<?php bloginfo('template_url'); ?>/images/logo-blue.png" alt="Boonyah" /></a>
 		    <!-- Logo Ends -->
 		    </article>
 		    
@@ -52,25 +52,25 @@
 		            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		                <ul class="navbar-nav pull-right">
 		                    <li class="active">
-                            	<a href="contact.php"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contact</a>
+                            	<a href="/contact"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contact</a>
                             </li>
 		                    <li>
                             	<a href="http://appapi.boonyah.com/manager"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> Merchant Login</a>
                             </li>
 		                    <li>
-                            	<a href="whitelabel.php"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span>  White Label</a>
+                            	<a href="/whitelabel"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span>  White Label</a>
                             </li> 
 		                    <li>
                             	<a href="business-opportunities.php"><span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span> Opportunities</a>
                             </li>
 		                    <li class="cta-business">
-                            	<a href="business.php" class="cta"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> For Business</a>
+                            	<a href="/business" class="cta"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> For Business</a>
                             </li> 
 		                    <li class="cta-demo">
-                            	<a href="demo.php" class="cta"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Free Demo</a>
+                            	<a href="/demo" class="cta"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Free Demo</a>
                             </li> 
 		                    <li class="cta-consult">
-                            	<a href="consult.php" class="cta"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Free Consult</a>
+                            	<a href="/consult" class="cta"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Free Consult</a>
                             </li> 
 		                </ul>
 		            </div>

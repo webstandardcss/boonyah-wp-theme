@@ -1,5 +1,5 @@
 <?php
-$theme_name = 'tpc-CeilingCentre';
+$theme_name = 'BoonYah';
 
 
 //adding thumbnail support in the theme

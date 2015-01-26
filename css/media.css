@@ -1,8 +1,23 @@
+@media only screen and (min-width: 1200px) {
+	.text-form input[type=button] {
+		width: auto;
+		height: 45px;
+		border-radius: 0 5px 5px 0;
+	}
+	
+	.text-form input[type=text] {
+		width: 161px;
+		float: left;
+		border-radius: 5px 0 0 5px;
+		border-right: none;
+	}
+}
+
 @media only screen and (max-width: 1200px) {	
 	/* Homepage Styles Starts */ 
 	.text-form,
 	.btn-c {
-		padding-top: 130px;
+		padding-top: 107px;
 	}
 	/* Homepage Styles Ends */
 	
@@ -168,13 +183,23 @@
 	/* Homepage Styles Starts */
 	.text-form,
 	.btn-c {
-		padding-top: 100px;
+		padding-top: 70px;
 	}
 	
 	.by-girl {
 		display: none;
 	}
 	/* Homepage Styles Ends */
+	
+	#myCarousel2 .item {
+		padding-top: 15px;
+		height: 100px !important;
+		overflow: hidden;
+	}
+
+	#myCarousel2 .two-line {
+		padding-top: 0;	
+	}
 }
 
 @media only screen and (max-width: 900px) {
@@ -214,6 +239,27 @@
 	/* Business Page Styles Ends */
 }
 
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.hide-media {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.text-form2 input[type=text] {
+		width: 68%;
+		float: left;
+		border-radius: 5px 0 0 5px;
+		border-right: none;
+	}
+	
+	.text-form2 input[type=button] {
+		width: 30%;
+		height: 45px;
+		border-radius: 0 5px 5px 0;
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	h1 {
 		font-size: 30px;
@@ -243,7 +289,7 @@
 	
 	.text-form2 input[type=button] {
 		margin: 12px 0;
-		width: 50%;
+		width: 100%;
 	}
 	
 	.features > .row > article {
