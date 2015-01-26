@@ -87,5 +87,6 @@
 	<span class="glyphicon glyphicon-upload" aria-hidden="true"></span>
 </a>
 
+<?php wp_footer(); ?>
 </body>
 </html>
