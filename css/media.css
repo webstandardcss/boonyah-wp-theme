@@ -1,0 +1,326 @@
+@media only screen and (max-width: 1200px) {	
+	/* Homepage Styles Starts */ 
+	.text-form,
+	.btn-c {
+		padding-top: 130px;
+	}
+	/* Homepage Styles Ends */
+	
+	/* Business Page Styles Starts */
+	.data {
+		top: 20px;
+	}	
+	
+	.each-row {
+		position: relative;
+		overflow: hidden;
+	}
+	
+	.sh {
+		min-height: 600px;
+	}
+	
+	.has-img img {
+		max-width: 500px;
+	}
+
+	.has-img {
+		position: absolute;
+		bottom: 10%;
+		width: 50%;
+		left: -5%;
+	}
+
+	.has-img.pull-right {
+		left: 50%;
+	}
+
+	.no-mb {
+		bottom: 0;
+		width: 65%;
+	}
+
+	.no-mb img {
+		margin-bottom: 0;
+	}
+	/* Business Page Styles Ends */
+	
+	.carousel-caption {
+		top: 20%;
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	/* Header Styles Starts */
+	.header-wrapper,
+	.header-wrapper.fixed {
+		position: relative;
+		background: #fff;
+		height: 60px;
+		text-align: center;
+		border-bottom: 1px solid #ccc;
+	}
+	
+	.banner-nav .header-wrapper {
+		border-bottom: none;
+	}
+
+	.logo {
+		margin: auto;
+		float: none !important;		
+	}
+
+	.logo img {
+		width: 180px;
+	}
+
+	nav {
+		position: absolute !important;
+		width: 250px;
+		float: right;
+		top: 0;
+	}
+	
+	.navbar-toggle {
+		float: left;
+	}
+	
+	.navbar-toggle .icon-bar {
+		background: #666;
+		height: 4px;
+		width: 33px;
+		border-radius: 40px;
+	}
+	
+	.navbar-toggle:hover .icon-bar {
+		background-color: #269df8;
+	}
+	
+	.navbar-collapse {
+		background: #fff;
+		width: 300px;
+		position: absolute;
+		left: 25px;
+		top: 59px;
+	}
+	
+	.navbar a {
+		color: #666;
+		font-weight: 100;
+		font-size: 13px;
+	}
+	
+	.navbar a:hover {
+		color: #269df8;
+	}
+	
+	nav ul {
+		width: 100%;
+		padding: 0;
+	}
+	
+	nav li {
+		display: block;
+		width: 100%;
+		margin-left: 0;
+		line-height: 50px;
+		text-align: left;
+	}
+	/* Header Styles Ends */
+}
+
+@media only screen and (max-width: 1000px) {
+	/* Business Page Styles Starts */
+	.pillars li {
+		width: 25%;
+	}
+	
+	.pillars li:nth-child(5) {
+		margin-left: 12.5%;
+	}
+	
+	.pillars li:nth-child(5),
+	.pillars li:nth-child(6),
+	.pillars li:nth-child(7) {
+		margin-top: 40px;
+	}
+	/* Business Page Styles Ends */
+	
+	.wl li {
+		width: 20%;
+	}
+	
+	.wl li:nth-child(6),
+	.wl li:nth-child(7),
+	.wl li:nth-child(8),
+	.wl li:nth-child(9) {
+		margin-top: 40px;
+		width: 25%;
+	}
+	
+	.wl li:nth-child(5) {
+		margin-left: 0;
+		margin-top: 0;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	/* Homepage Styles Starts */
+	.text-form,
+	.btn-c {
+		padding-top: 100px;
+	}
+	
+	.by-girl {
+		display: none;
+	}
+	/* Homepage Styles Ends */
+}
+
+@media only screen and (max-width: 900px) {
+	/* Business Page Styles Starts */
+	.data {
+		top: 0;
+	}	
+	
+	.sh {
+		min-height: 650px;
+	}
+	
+	.has-img img {
+		max-width: 85%;
+	}
+
+	.has-img {
+		position: absolute;
+		bottom: 7%;
+		width: 80%;
+		left: -18%;
+	}
+
+	.has-img.pull-right {
+		left: 50%;
+	}
+
+	.no-mb {
+		bottom: 0;
+		width: 85%;
+		left: -18%;
+	}
+
+	.no-mb.pull-right {
+		left: 40%;
+	}
+	/* Business Page Styles Ends */
+}
+
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 30px;
+		line-height: 45px;
+	}
+	
+	.navbar-collapse {
+		left: -1px;
+	}
+	/* Homepage Styles Starts */
+	.text-form,
+	.btn-c {
+		padding-top: 0;
+	}
+	
+	.text-form input {
+		width: 50%;
+	}
+	
+	.text-form2 {
+		text-align: center;
+	}
+	
+	.text-form2 input[type=text] {
+		width: 100%;
+	}
+	
+	.text-form2 input[type=button] {
+		margin: 12px 0;
+		width: 50%;
+	}
+	
+	.features > .row > article {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	
+	.features > .row > article img,
+	.features > .row > article p {
+		max-width: 200px;
+		margin: auto;
+	}
+	/* Homepage Styles Ends */
+	
+	/* Business Page Styles Starts */
+	/* pc --> Pillars Container */
+	.pc	{
+		display: none;
+	}
+	
+	.step {
+		margin-bottom: 60px;
+	}
+	
+	.step:nth-child(4) {
+		margin-bottom: -60px;
+	}
+	
+	.homepage .step:nth-child(4) {
+		margin-bottom: 0;
+	}
+	
+	.has-img {
+		display: none;
+	}
+	
+	.sh {
+		min-height: 100px;
+		text-align: center;
+	}
+	
+	.hover-span {
+		margin: auto;
+	}
+	
+	h3 {
+		font-size: 22px;
+	}
+	/* Business Page Styles Ends */
+	
+	.lightbox-content,
+	.layover {
+		display: none !important;
+	}
+	
+	.carousel-caption h1 {
+		text-align: center;
+		margin: auto;
+		font-size: 40px;
+		line-height: 50px;
+	}
+	
+	.banner .btn-info {
+		float: none;
+		margin-top: 18px;
+	}
+	
+	/* Footer Styles Starts */
+	footer article {
+		width: 50%;
+	}
+	/* Footer Styles Ends */
+}
+
+@media only screen and (max-width: 320px) {
+	footer article {
+		width: 100%;
+	}
+}
+

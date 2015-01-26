@@ -1,0 +1,212 @@
+body {
+	background: #ededed;
+}
+
+h3 {
+	font-size: 21px;
+	color: #333331;
+	font-weight: 500;
+	border-bottom: 1px solid #e9e9e9;
+	padding-bottom: 12px;
+}
+
+h4 {
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+
+.blue {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+img,
+p {
+	font-size: 13px;
+	color: #333331;
+	margin-bottom: 18px !important;
+}
+
+.header-wrapper {
+	background: #fff;
+	border-bottom: 1px solid #000;
+	box-shadow: 0 0 3px #ccc;
+}
+
+.main-contents {
+	background: #fff;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	box-shadow: 0 0 2px #ccc;
+	top: 70px;
+	margin-bottom: 70px;
+	left: -10px;
+	position: relative;
+	max-width: 1090px;
+	min-height: 450px;
+}
+
+aside {
+	background: #fbfbfb;
+	border-right: 1px solid #e9e9e9;
+	position: absolute !important;
+	height: 100%;
+}
+
+.list-custom {
+	padding: 0;
+	list-style: none;
+}
+
+.list-custom li {
+	border-bottom: 1px solid #e9e9e9;
+}
+
+.list-custom li.active {
+	background: #fff;
+	margin-right: -1px;
+}
+
+.list-custom a {
+	display: block;
+	line-height: 60px;
+	text-indent: 20px;
+	color: #666;
+	text-decoration: none !important;
+}
+
+
+/* Media Kit Page Styles Starts */
+.screenshots article img {
+	width: 100%;
+}
+
+.screenshots article a {
+	display: block;
+	border: 1px solid #ccc;
+	border-radius: 0 0 5px 5px;
+}
+
+.img-caption {
+	font-size: 11px;
+	line-height: 25px;
+	background: #e9e9e9;
+	line-height: 25px;
+	text-align: center;
+	color: #333;
+	border-top: 1px solid #e9e9e9;
+	margin-top: -17px;
+	border-radius: 0 0 5px 5px;
+}
+.md-kit img {
+	margin: 20px auto;
+}
+
+.list h4 {
+	color: green;
+}
+
+.dont h4 {
+	color: red;
+}
+
+.list li {
+	margin-bottom: 15px;
+	margin-left: 26px;
+}
+
+.list li:before {
+	background-color: green;
+	border-radius: 50%;
+	content: " ";
+	display: block;
+	height: 6px;
+	left: -25px;
+	position: relative;
+	top: 13px;
+	width: 6px;
+}
+
+.dont li:before {
+	background-color: red;	
+}
+/* Media Kit Page Styles Ends */
+
+/* Footer Styles Starts */
+.footer-general {
+	text-align: center;
+}
+
+.footer-general a {
+	color: #fff;
+	font-size: 11px;
+	transition: all .3s .2s;
+}
+
+.footer-general a:hover {
+	color: #ccc;
+}
+
+.footer-general p {
+	font-size: 11px;
+	text-align: center;
+	margin-bottom: 0 !important;
+}
+
+.footer-links li {
+	display: inline;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.footer-links a {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+/* Footer Styles Ends */
+
+@media only screen and (max-width: 1200px) {
+	.main-contents {
+		top: 0;
+		margin-bottom: 0;
+		left: 0;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	aside {
+		position: relative !important;
+	}
+	
+	.list-custom li:last-child {
+		margin-bottom: -9px;
+	}
+	
+	/* Media Kit Page Styles Starts */
+	.contents .col-sm-6,
+	.contents .col-sm-3 {
+		max-width: 320px;
+		margin: auto;
+	}
+	
+	.col-sm-6.list {
+		max-width: 100%;
+	}
+	
+	.screenshots article {
+		margin-bottom: 15px !important;
+	}
+	/* Media Kit Page Styles Ends */
+	
+	.img-center {
+		float: none !important;
+	}
+}
+
+@media only screen and (max-width: 330px) {	
+	.navbar-collapse {
+		width: 280px;
+	}
+}
