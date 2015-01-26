@@ -61,7 +61,7 @@
                             	<a href="/whitelabel"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span>  White Label</a>
                             </li> 
 		                    <li>
-                            	<a href="business-opportunities.php"><span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span> Opportunities</a>
+                            	<a href="/business-opportunities"><span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span> Opportunities</a>
                             </li>
 		                    <li class="cta-business">
                             	<a href="/business" class="cta"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> For Business</a>
