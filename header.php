@@ -67,10 +67,10 @@
                             	<a href="/business" class="cta"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> For Business</a>
                             </li> 
 		                    <li class="cta-demo">
-                            	<a href="/demo" class="cta"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Free Demo</a>
+                            	<a href="/free-demo" class="cta"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Free Demo</a>
                             </li> 
 		                    <li class="cta-consult">
-                            	<a href="/consult" class="cta"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Free Consult</a>
+                            	<a href="/free-consult" class="cta"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Free Consult</a>
                             </li> 
 		                </ul>
 		            </div>

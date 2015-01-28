@@ -1,16 +1,14 @@
 <footer class="each-row footer-general">
 <!-- Footer Starts -->
 
-	<ul class="footer-links">
-    	<li><a href="about.php">About</a></li>
-    	<li><a href="beacon.php">Buy Beacons</a></li>
-    	<li><a href="business-opportunities.php">Business Opportunities</a></li>
-    	<li><a href="mediakit.php">Media Kit</a></li>
-    	<li><a href="support.php">Support</a></li>
-    	<li><a href="term-policy.php">Terms and Policy</a></li>
-    	<li><a href="#">Facebook</a></li>
-    	<li><a href="#">Twitter</a></li>
-    </ul>
+	<?php /* Primary navigation */
+	wp_nav_menu( array(
+		'menu' => 'footer-menu',
+		'depth' => 2,
+		'container' => false,
+		'menu_class' => 'footer-links')
+	);
+	?>
     
     <p>© Copyright 2014 BoonYah</p>
 
