@@ -41,7 +41,7 @@
         
     	<article class="">
         <!-- Support Starts -->
-        	<p>
+        	<!--<p>
         		<strong>Support</strong>
         	</p>
             <form action="#">
@@ -70,7 +70,7 @@
                     	<input type="submit" value="Submit" class="btn btn-info btn-lg" /></input> 
                     </li>
             	</ul>
-            </form>
+            </form>-->
         <!-- Support Ends -->
         </article>
         
