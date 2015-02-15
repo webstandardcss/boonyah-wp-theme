@@ -377,8 +377,8 @@ get_header(); ?>
         <img src="<?php bloginfo('template_url'); ?>/images/municipal-icons.png" alt="" />
         <span>Municipalities</span>
     </div>
-    <h3>If you’re like most local marketers, you’re always looking for the next big opportunity</h3>
-    <p>There’s always another “shiny object” around the next corner! The problem arises when you realize that the product isn’t what it’s cracked up to be or it requires programming skills just to get started. It’s always heart-breaking when you find out that  there’s a “huge” learning curve just to figure out the new concept or system. That’s why we offer local marketers a white label system or a totally “done-for-you” system so there’s never a big learning curve for the “technically challenged”!</p>
+    <h3 class="hide">If you’re like most local marketers, you’re always looking for the next big opportunity</h3>
+    <p class="hide">There’s always another “shiny object” around the next corner! The problem arises when you realize that the product isn’t what it’s cracked up to be or it requires programming skills just to get started. It’s always heart-breaking when you find out that  there’s a “huge” learning curve just to figure out the new concept or system. That’s why we offer local marketers a white label system or a totally “done-for-you” system so there’s never a big learning curve for the “technically challenged”!</p>
 
 <!-- Each Row Ends -->
 </section>
@@ -392,8 +392,8 @@ get_header(); ?>
         <img src="<?php bloginfo('template_url'); ?>/images/local-icons.png" alt="" />
         <span>Local Marketers</span>
     </div>
-    <h3>If you’re like most local marketers, you’re always looking for the next big opportunity</h3>
-    <p>There’s always another “shiny object” around the next corner! The problem arises when you realize that the product isn’t what it’s cracked up to be or it requires programming skills just to get started. It’s always heart-breaking when you find out that  there’s a “huge” learning curve just to figure out the new concept or system. That’s why we offer local marketers a white label system or a totally “done-for-you” system so there’s never a big learning curve for the “technically challenged”!</p>
+    <h3 class="hide">If you’re like most local marketers, you’re always looking for the next big opportunity</h3>
+    <p class="hide">There’s always another “shiny object” around the next corner! The problem arises when you realize that the product isn’t what it’s cracked up to be or it requires programming skills just to get started. It’s always heart-breaking when you find out that  there’s a “huge” learning curve just to figure out the new concept or system. That’s why we offer local marketers a white label system or a totally “done-for-you” system so there’s never a big learning curve for the “technically challenged”!</p>
 
 <!-- Each Row Ends -->
 </section>
@@ -452,8 +452,8 @@ get_header(); ?>
         <img src="<?php bloginfo('template_url'); ?>/images/chamber-icons.png" alt="" />
         <span class="two-line">Chamber & Associations</span>
     </div>
-    <h3>There’s never been a more thorough way to promote your Chamber or Association than what our solution provides</h3>
-    <p>You’ll be able to easily promote your members to the outside community through our digital directory while producing a great deal of additional revenues for your members using our automated loyalty and marketing systems.</p>
+    <h3 class="hide">There’s never been a more thorough way to promote your Chamber or Association than what our solution provides</h3>
+    <p class="hide">You’ll be able to easily promote your members to the outside community through our digital directory while producing a great deal of additional revenues for your members using our automated loyalty and marketing systems.</p>
 
 <!-- Each Row Ends -->
 </section>
@@ -482,8 +482,8 @@ get_header(); ?>
         <img src="<?php bloginfo('template_url'); ?>/images/managers-icons.png" alt="" />
         <span class="two-line">Mail / Property Managers</span>
     </div>
-    <h3>There’s never been an easier way to promote your tenants…</h3>
-    <p>And your property at the same time! Each tenant can easily improve customer loyalty by using their iBeacons for customer enrollment and then start taking advantage of all the automated programs to generate repeat business, improved customer retention and additional sales.  In addition, you’ll be able to promote your property by having your own digital directory complete with business listings  and a list of current promotions for each of your tenants.  You’ll easily increase your foot traffic and improve loyalty while helping your tenants grow their business… and it’s all on autopilot!</p>
+    <h3 class="hide">There’s never been an easier way to promote your tenants…</h3>
+    <p class="hide">And your property at the same time! Each tenant can easily improve customer loyalty by using their iBeacons for customer enrollment and then start taking advantage of all the automated programs to generate repeat business, improved customer retention and additional sales.  In addition, you’ll be able to promote your property by having your own digital directory complete with business listings  and a list of current promotions for each of your tenants.  You’ll easily increase your foot traffic and improve loyalty while helping your tenants grow their business… and it’s all on autopilot!</p>
 
 <!-- Each Row Ends -->
 </section>
@@ -497,8 +497,8 @@ get_header(); ?>
         <img src="<?php bloginfo('template_url'); ?>/images/marketing-icons.png" alt="" />
         <span class="two-line">Proximity Marketers</span>
     </div>
-    <h3>Until now there’s never been a complete solution for proximity marketers</h3>
-    <p>All proximity marketing software solutions available at the moment were only developed to control the devices and left a lot to be desired when it came to providing good marketing results. But with our white label solution, you can promote an unlimited number of businesses which tremendously increases the number of clients you can market for while delivering much better results.</p>
+    <h3 class="hide">Until now there’s never been a complete solution for proximity marketers</h3>
+    <p class="hide">All proximity marketing software solutions available at the moment were only developed to control the devices and left a lot to be desired when it came to providing good marketing results. But with our white label solution, you can promote an unlimited number of businesses which tremendously increases the number of clients you can market for while delivering much better results.</p>
 
 <!-- Each Row Ends -->
 </section>

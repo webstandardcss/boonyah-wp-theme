@@ -17,7 +17,14 @@
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/wow.min.js"></script>
     <title><?php wp_title(); ?></title>
-    
+    <script type="text/javascript">
+	$(document).ready(function(e) {
+		$(".gform_wrapper form").addClass("form");
+		$(".gform_wrapper form input, .gform_wrapper form textarea").addClass("form-control");
+		$(".gform_wrapper form input[type=submit]").addClass("btn btn-info btn-lg");
+		$(".gform_wrapper form input[type=submit]").removeClass("form-control");
+	});
+	</script>
     <?php wp_head(); ?>
 </head>
 

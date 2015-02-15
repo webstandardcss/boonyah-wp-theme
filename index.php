@@ -69,8 +69,8 @@
 
         <article class="col-sm-3 text-form text-center">
         <!-- Mobile Form Starts -->
-        	<form action="#" class="form-inline">
-            	<input type="text" placeholder="Mobile Number" class="form-control" required />
+        	<form action="http://boonyah.info/wifi/trumpia-api/boonyah.net.php" class="form-inline">
+            	<input type="text" placeholder="Mobile Number" name="mobile" class="form-control" required />
                 <input type="button" value="Text Me" class="btn btn-info btn-lg" />
                 <div class="clearfix"></div>
             </form>
