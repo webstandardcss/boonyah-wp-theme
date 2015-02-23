@@ -78,55 +78,55 @@ get_header(); ?>
         <div class="pillars wl">
         	<ul>
         		<li>
-        			<a href="#" class="lightbox" id="municipal">
+        			<a href="#" id="municipal">
         				<img src="<?php bloginfo('template_url'); ?>/images/municipal-icons.png" alt="" />
         			    <span>Municipalities</span>
         			</a>
         		</li>
         		<li>
-                    <a href="#" class="lightbox" id="local">
+                    <a href="#" id="local">
                         <img src="<?php bloginfo('template_url'); ?>/images/local-icons.png" alt="" />
                         <span class="two-line">Local Marketers</span>
                     </a>
         		</li>
         		<li>
-                    <a href="#" class="lightbox" id="organization">
+                    <a href="#" id="organization">
                         <img src="<?php bloginfo('template_url'); ?>/images/organization-icons.png" alt="" />
                         <span>Organizations</span>
                     </a>
         		</li>
         		<li>
-                    <a href="#" class="lightbox" id="foundations">
+                    <a href="#" id="foundations">
                         <img src="<?php bloginfo('template_url'); ?>/images/foundations-icons.png" alt="" />
                         <span>Foundations</span>
                     </a>
         		</li>
         		<li>
-                    <a href="#" class="lightbox" id="chains">
+                    <a href="#" id="chains">
                         <img src="<?php bloginfo('template_url'); ?>/images/chains-icons.png" alt="" />
                         <span class="two-line">Chains & Brands</span>
                     </a>
         		</li>
         		<li>
-                    <a href="#" class="lightbox" id="chamber">
+                    <a href="#" id="chamber">
                         <img src="<?php bloginfo('template_url'); ?>/images/chamber-icons.png" alt="" />
                         <span class="two-line">Chamber & Associations</span>
                     </a>
         		</li>
         		<li>
-                    <a href="#" class="lightbox" id="advertising">
+                    <a href="#" id="advertising">
                         <img src="<?php bloginfo('template_url'); ?>/images/advertising-icons.png" alt="" />
                         <span class="two-line">Advertising Agencies</span>
                     </a>
         		</li>
         		<li>
-                    <a href="#" class="lightbox" id="managers">
+                    <a href="#" id="managers">
                         <img src="<?php bloginfo('template_url'); ?>/images/managers-icons.png" alt="" />
                         <span>Malls</span>
                     </a>
         		</li>
         		<li>
-                    <a href="#" class="lightbox" id="marketing">
+                    <a href="#" id="marketing">
                         <img src="<?php bloginfo('template_url'); ?>/images/marketing-icons.png" alt="" />
                         <span class="two-line">Proximity Marketers</span>
                     </a>

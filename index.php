@@ -51,7 +51,7 @@
         <!-- Each Step Starts -->
         	<img src="<?php bloginfo('template_url'); ?>/images/win-new.png" class="custom-border" alt="Win" />
             <h2 class="blue"><strong>Win</strong></h2>
-            <p>Win loyalty rewards and get the gifts you want.</p>
+            <p>Win loyalty rewards and get gifts you want.</p>
         <!-- Each Step Ends -->
         </article>
 
@@ -140,8 +140,8 @@
     	<h1>Get Loyalty And Extra Perks When You Download The App!</h1>
 
     	<article class="col-sm-6 text-form2">
-        	<form action="#" class="form-inline">
-            	<input type="text" placeholder="Mobile Number" class="form-control">
+        	<form action="http://boonyah.info/wifi/trumpia-api/boonyah.net.php" class="form-inline">
+            	<input type="text" placeholder="Mobile Number" name="mobile" class="form-control" required>
                 <input type="button" value="Text Me" class="btn btn-info btn-lg"	 />
             </form>
         </article>
