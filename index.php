@@ -34,7 +34,7 @@
         <article class="step col-sm-4">
         <!-- Each Step Starts -->
         	<img src="<?php bloginfo('template_url'); ?>/images/visit-new.png" class="custom-border" alt="Visit" />
-            <h2 class="blue"><strong>Visit</strong></h2>
+            <h6>Visit</h6><br />
             <p>Visit any of our Boonyah locations to play.</p>
         <!-- Each Step Ends -->
         </article>
@@ -42,7 +42,7 @@
         <article class="step col-sm-4">
         <!-- Each Step Starts -->
         	<img src="<?php bloginfo('template_url'); ?>/images/play-new.png" class="custom-border" alt="Play" />
-            <h2 class="blue"><strong>Play</strong></h2>
+            <h6>Play</h6><br />
             <p>Play loyalty games each time you come in.</p>
         <!-- Each Step Ends -->
         </article>
@@ -50,7 +50,7 @@
         <article class="step col-sm-4">
         <!-- Each Step Starts -->
         	<img src="<?php bloginfo('template_url'); ?>/images/win-new.png" class="custom-border" alt="Win" />
-            <h2 class="blue"><strong>Win</strong></h2>
+            <h6>Win</h6><br />
             <p>Win loyalty rewards and get gifts you want.</p>
         <!-- Each Step Ends -->
         </article>

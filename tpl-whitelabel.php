@@ -307,7 +307,7 @@ get_header(); ?>
     <!-- Each Row Starts -->
 
 		<div class="text-center">
-			<a href="consult.php" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-headphones" aria-hidden="true"></span> &nbsp;&nbsp;Free Consult</a>
+			<a href="/free-consult" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-headphones" aria-hidden="true"></span> &nbsp;&nbsp;Free Consult</a>
 		</div>
         <h1 class="mb-less">Save Time, Money And Development Frustration.</h1>
         <h3>There’s no other white label app that provides more features that your client’s demand!</h3>
@@ -465,7 +465,7 @@ get_header(); ?>
 
     <div class="hover-span">
         <img src="<?php bloginfo('template_url'); ?>/images/advertising-icons.png" alt="" />
-        <span class="two-line">Adertising Agencies</span>
+        <span class="two-line">Advertising Agencies</span>
     </div>
     <h3></h3>
     <p></p>

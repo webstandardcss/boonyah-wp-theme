@@ -28,7 +28,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
+<body <?php body_class(); ?>>
 
 <div class="layover"></div>
 <header>
@@ -70,7 +70,7 @@
 		                    <li>
                             	<a href="/business-opportunities"><span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span> Jobs</a>
                             </li>
-		                    <li>
+		                    <li class="extra-business">
                             	<a href="/business"><span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span> Business</a>
                             </li>
 		                    <li class="cta-business">

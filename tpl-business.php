@@ -293,7 +293,7 @@ get_header(); ?>
     <!-- Each Row Starts -->
     
 		<div class="text-center">
-			<a href="demo.php" class="btn btn-info btn-lg"><i class="fa fa-apple"></i> &nbsp;&nbsp;Free Demo</a>
+			<a href="/free-demo" class="btn btn-info btn-lg"><i class="fa fa-apple"></i> &nbsp;&nbsp;Free Demo</a>
 		</div>
         <h1>There’s No Easier Way To Market Your Business… Period!</h1>
 

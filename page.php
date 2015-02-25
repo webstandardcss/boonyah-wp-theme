@@ -25,7 +25,8 @@
                 
     <!-- Contents Ends -->
     </section>
-
+	
+    <div class="clearfix"></div>
 
 <!-- Main Contents Ends -->
 </div>

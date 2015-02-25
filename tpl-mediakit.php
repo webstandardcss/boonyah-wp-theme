@@ -30,13 +30,13 @@ get_header();
         	<article class="col-sm-6">
         	    <img src="<?php bloginfo('template_url'); ?>/images/new_boonyah_logo_with_tagline_white.png" class="img-responsive bg-info" alt="" />
         		<h4>BoonYah Logo – Dark Backgrounds</h4>
-                <p>Download <a href="http://boonyah.net/images/boonyah-logo-white.eps" target="_blank">EPS</a> • <a href="http://boonyah.net/wp-content/uploads/2014/09/New_BoonYah_Logo_With_Tagline_white.png" target="_blank">PNG</a></p>
+                <p>Download <a href="<?php bloginfo('template_url'); ?>/images/boonyah-logo-white.eps" target="_blank">EPS</a> • <a href="<?php bloginfo('template_url'); ?>/images/new_boonyah_logo_with_tagline_white.png" target="_blank">PNG</a></p>
         	</article>
 
         	<article class="col-sm-6">
         	    <img src="<?php bloginfo('template_url'); ?>/images/new_boonyah_logo_with_tagline.png" class="img-responsive" alt="" />
         		<h4>BoonYah Logo – White Backgrounds</h4>
-                <p>Download <a href="http://boonyah.net/images/boonyah-logo.eps" target="_blank">EPS</a> • <a href="http://boonyah.net/wp-content/uploads/2014/09/New_BoonYah_Logo_With_Tagline.png" target="_blank">PNG</a></p>
+                <p>Download <a href="<?php bloginfo('template_url'); ?>/images/boonyah-logo.eps" target="_blank">EPS</a> • <a href="<?php bloginfo('template_url'); ?>/images/new_boonyah_logo_with_tagline.png" target="_blank">PNG</a></p>
         	</article>
         </div>
 
@@ -46,28 +46,28 @@ get_header();
 
         <div class="row screenshots">
         	<article class="col-sm-3">
-        	    <a href="http://boonyah.com/wp-content/uploads/2014/09/spin-to-win.png" target="_blank">
+        	    <a href="<?php bloginfo('template_url'); ?>/images/MediaKit/Spin-To-Win.png" target="_blank">
         	    	<img src="<?php bloginfo('template_url'); ?>/images/spin-to-win-159x300.png" alt="" />
         			<div class="img-caption">Spin To Win</div>
         	    </a>
         	</article>
 
         	<article class="col-sm-3">
-        	    <a href="http://boonyah.com/wp-content/uploads/2014/09/golden-ticket.png" target="_blank">
+        	    <a href="<?php bloginfo('template_url'); ?>/images/MediaKit/Golden-Ticket.png" target="_blank">
         	    	<img src="<?php bloginfo('template_url'); ?>/images/golden-ticket-159x300.png" class="img-responsive" alt="" />
         			<div class="img-caption">Golden Ticket</div>
         	    </a>
         	</article>
 
         	<article class="col-sm-3">
-        	    <a href="http://boonyah.com/wp-content/uploads/2014/09/app-listing2-576x1024.png" target="_blank">
+        	    <a href="<?php bloginfo('template_url'); ?>/images/MediaKit/app-listing2-576x1024.png" target="_blank">
         	    	<img src="<?php bloginfo('template_url'); ?>/images/app-listing2-169x300.png" alt="" />
         			<div class="img-caption">Business Listing</div>
         	    </a>
         	</article>
             
         	<article class="col-sm-3">
-        	    <a href="http://boonyah.com/wp-content/uploads/2014/09/app-categories2-576x1024.png" target="_blank">
+        	    <a href="<?php bloginfo('template_url'); ?>/images/MediaKit/app-categories2-576x1024.png" target="_blank">
         	    	<img src="<?php bloginfo('template_url'); ?>/images/app-categories2-169x300.png" alt="" />
         			<div class="img-caption">Categories Page</div>
         	    </a>
@@ -76,33 +76,40 @@ get_header();
         	<div class="clearfix"></div>
 
         	<article class="col-sm-3">
-        	    <a href="http://boonyah.com/wp-content/uploads/2014/09/app-offer-redeemed.png" target="_blank">
+        	    <a href="<?php bloginfo('template_url'); ?>/images/MediaKit/app-offer-redeemed.png" target="_blank">
         	    	<img src="<?php bloginfo('template_url'); ?>/images/app-offer-redeemed-200x300.png" class="img-responsive" alt="" />
         			<div class="img-caption">Redeemed Coupon Page</div>
         	    </a>
         	</article>
             
         	<article class="col-sm-3">
-        	    <a href="http://boonyah.com/wp-content/uploads/2014/09/app-offer.png" target="_blank">
+        	    <a href="<?php bloginfo('template_url'); ?>/images/MediaKit/app-offer.png" target="_blank">
         	    	<img src="<?php bloginfo('template_url'); ?>/images/app-offer-200x300.png" alt="" />
         			<div class="img-caption">Coupon Page</div>
         	    </a>
         	</article>
 
         	<article class="col-sm-3">
-        	    <a href="http://boonyah.com/wp-content/uploads/2014/09/app-offers.png" target="_blank">
+        	    <a href="<?php bloginfo('template_url'); ?>/images/MediaKit/app-offers.png" target="_blank">
         	    	<img src="<?php bloginfo('template_url'); ?>/images/app-offers-200x300.png" alt="" />
         			<div class="img-caption">Offers Page</div>
         	    </a>
         	</article>
 
         	<article class="col-sm-3">
-        	    <a href="http://boonyah.com/wp-content/uploads/2014/09/app-wallet.png" target="_blank">
+        	    <a href="<?php bloginfo('template_url'); ?>/images/MediaKit/app-wallet.png" target="_blank">
         	    	<img src="<?php bloginfo('template_url'); ?>/images/app-wallet-200x300.png" class="img-responsive" alt="" />
         			<div class="img-caption">Wallet</div>
         	    </a>
         	</article>
             <div class="clearfix"></div>
+
+        	<!--<article class="col-sm-3">
+        	    <a href="<?php bloginfo('template_url'); ?>/images/MediaKit/app-golden-ticket.png" target="_blank">
+        	    	<img src="<?php bloginfo('template_url'); ?>/images/MediaKit/app-golden-ticket.png" class="img-responsive" alt="" />
+        			<div class="img-caption">Golden Ticket</div>
+        	    </a>
+        	</article>-->
         </div>
 
         <h3>Asset Usage</h3>

@@ -120,6 +120,10 @@ nav span {
 		position: fixed;
 		height: 72px;
 	}
+	
+	.logged-in .header-wrapper {
+		top: 31px !important;
+	}
 
 	.header-wrapper.fixed {
 		background: #fff;
@@ -144,6 +148,10 @@ nav span {
 
 .home-page .cta-business {
 	display: block;
+}
+
+.home-page .extra-business {
+	display: none;
 }
 
 .wlabel-page .cta-demo,
