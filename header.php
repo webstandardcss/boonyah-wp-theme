@@ -40,7 +40,7 @@
 		    
 		    <article class="logo pull-left">
 		    <!-- Logo Starts -->
-		        <a href="http://boonyah.net"><img src="<?php bloginfo('template_url'); ?>/images/logo-blue.png" alt="Boonyah" /></a>
+		        <a href="http://boonyah.com"><img src="<?php bloginfo('template_url'); ?>/images/logo-blue.png" alt="Boonyah" /></a>
 		    <!-- Logo Ends -->
 		    </article>
 		    
