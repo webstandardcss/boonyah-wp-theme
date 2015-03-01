@@ -86,7 +86,7 @@
         <article class="col-sm-3 btn-c">
         <!-- Get App Button Starts -->
         	<a href="https://itunes.apple.com/us/app/boonyah/id841216262?mt=8" target="_blank" class="btn btn-info btn-lg"><i class="fa fa-apple"></i> <span class="hide-media">&nbsp;&nbsp;</span>Get The App</a>
-        	<a href="coming-soon.php" class="btn btn-info btn-lg"><i class="fa fa-android"></i> <span class="hide-media">&nbsp;&nbsp;</span>Get The App</a>
+        	<a href="/coming-soon" class="btn btn-info btn-lg"><i class="fa fa-android"></i> <span class="hide-media">&nbsp;&nbsp;</span>Get The App</a>
         <!-- Get App Button Ends -->
         </article>
 
@@ -148,7 +148,7 @@
 
         <article class="col-sm-6 btn-c2">
         	<a href="https://itunes.apple.com/us/app/boonyah/id841216262?mt=8" target="_blank" class="btn btn-info btn-lg pull-left"><i class="fa fa-apple"></i> <span class="hide-media">&nbsp;&nbsp;</span>Get The App</a>
-        	<a href="coming-soon.php" class="btn btn-info btn-lg pull-right"><i class="fa fa-android"></i> <span class="hide-media">&nbsp;&nbsp;</span>Get The App</a>
+        	<a href="/coming-soon" class="btn btn-info btn-lg pull-right"><i class="fa fa-android"></i> <span class="hide-media">&nbsp;&nbsp;</span>Get The App</a>
         </article>
 
     <!-- Fourth Row Ends -->
