@@ -9,12 +9,6 @@
 <div class="row">
 <!-- Main Contents Starts -->
 
-	<aside class="col-sm-3">
-    <!-- Sidebar Starts -->
-    	<?php include_once('sidebar.php'); ?>
-    <!-- Sidebar Ends -->
-    </aside>
-
 	<section class="contents col-sm-9 pull-right">
     <!-- Contents Starts -->
         
@@ -25,6 +19,12 @@
                 
     <!-- Contents Ends -->
     </section>
+
+	<aside class="col-sm-3">
+    <!-- Sidebar Starts -->
+    	<?php include_once('sidebar.php'); ?>
+    <!-- Sidebar Ends -->
+    </aside>
 	
     <div class="clearfix"></div>
 

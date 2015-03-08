@@ -364,6 +364,35 @@
 	/* Footer Styles Ends */
 }
 
+@media only screen and (max-width: 480px) {
+	.carousel-caption {
+		top: 0%;
+	}
+	.carousel-caption h1 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.banner .btn-info {
+		font-size: 18px;
+		margin-top: 8px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.carousel-caption h1 {
+		font-size: 25px;
+		line-height: 32px;
+	}
+	.banner .btn-info {
+		font-size: 18px;
+		margin-top: 8px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+}
+
 @media only screen and (max-width: 320px) {
 	footer article {
 		width: 100%;

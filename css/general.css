@@ -193,9 +193,12 @@ aside {
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {	
 	aside {
 		position: relative !important;
+		height: auto;
+		clear: both;
+		margin-bottom: -9px;
 	}
 	
 	.list-custom li:last-child {
