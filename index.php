@@ -71,7 +71,7 @@
         <!-- Mobile Form Starts -->
         	<form action="http://boonyah.info/wifi/trumpia-api/boonyah.net.php" class="form-inline">
             	<input type="text" placeholder="Mobile Number" name="mobile" class="form-control" required />
-                <input type="button" value="Text Me" class="btn btn-info btn-lg" />
+                <input type="submit" value="Text Me" class="btn btn-info btn-lg" />
                 <div class="clearfix"></div>
             </form>
         <!-- Mobile Form Ends -->
@@ -142,7 +142,7 @@
     	<article class="col-sm-6 text-form2">
         	<form action="http://boonyah.info/wifi/trumpia-api/boonyah.net.php" class="form-inline">
             	<input type="text" placeholder="Mobile Number" name="mobile" class="form-control" required>
-                <input type="button" value="Text Me" class="btn btn-info btn-lg"	 />
+                <input type="submit" value="Text Me" class="btn btn-info btn-lg"	 />
             </form>
         </article>
 

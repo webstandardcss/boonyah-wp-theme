@@ -1,5 +1,5 @@
 @media only screen and (min-width: 1200px) {
-	.text-form input[type=button] {
+	.text-form input[type=submit] {
 		width: auto;
 		height: 45px;
 		border-radius: 0 5px 5px 0;
@@ -253,7 +253,7 @@
 		border-right: none;
 	}
 	
-	.text-form2 input[type=button] {
+	.text-form2 input[type=submit] {
 		width: 30%;
 		height: 45px;
 		border-radius: 0 5px 5px 0;
@@ -287,7 +287,7 @@
 		width: 100%;
 	}
 	
-	.text-form2 input[type=button] {
+	.text-form2 input[type=submit] {
 		margin: 12px 0;
 		width: 100%;
 	}
